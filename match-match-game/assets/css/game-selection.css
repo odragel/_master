@@ -1,0 +1,43 @@
+.select-game{
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-items: center;
+}
+
+.container-levels{
+    width:300px;
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.radio{
+    display:none;
+}
+
+.select-game-level{
+    display: grid;
+    grid-template-columns: 155px auto;
+    justify-items: left;
+    align-items: center;
+}
+
+.game-level{
+    width:120px;
+    height:30px;
+    font-size: 14px;
+    padding-left: 5px;
+    color: white;
+    background: darkseagreen;
+
+}
+
+:checked + img{
+    border-color: darkseagreen;
+}
+
+.small-image{
+    height: 150px;
+    width: auto;
+    border: 3px solid transparent;
+    cursor:pointer;
+}

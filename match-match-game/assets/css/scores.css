@@ -1,0 +1,9 @@
+.scores-table{
+    display: grid;
+    grid-template-columns: 200px 70px 100px;
+}
+
+.scores-table .header{
+    font-weight: bold;
+    margin-top: 10px;
+}

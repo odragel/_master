@@ -1,0 +1,18 @@
+.opened-card .front{
+    transform: rotateY(-180deg);
+    transition: 0.5s;
+    transform-style: preserve-3d;
+}
+
+.opened-card .back{
+    transform: rotateY(180deg);
+    transition: 0.5s;
+    transform-style: preserve-3d;
+}
+
+.closed-card .front,
+.closed-card .back{
+    transform: rotateY(0deg);
+    transition: 0.5s;
+    transform-style: preserve-3d;
+}

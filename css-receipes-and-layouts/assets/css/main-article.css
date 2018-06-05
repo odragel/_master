@@ -1,0 +1,31 @@
+.topic-illustration{
+    width: 100%;
+    height: auto;
+}
+
+.topic-subscription{
+    display: grid;
+    grid-template-columns: 23px 123px 23px 123px;
+    grid-template-rows: 40px;
+    align-items: center;
+    justify-items: left;
+    border-top: 1px solid #d3d3d3;
+    border-bottom: 1px solid #d3d3d3;
+}
+
+.subscr-img{
+    justify-self: center;
+}
+
+.topic-text {
+    text-align: justify;
+    display: inline-block;
+    margin-top: 16px;
+    font-family: Arial, sans-serif;
+    font-size: 12px;
+    color: #69747c;
+}
+
+.main-article{
+    display:grid;
+}

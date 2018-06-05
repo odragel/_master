@@ -1,0 +1,16 @@
+.mobile-menu{
+    justify-self: right;
+    color: #9cbce1;
+    padding-right: 10px;
+    cursor:pointer;
+}
+
+.mobile-nav-sign{
+    transform: rotate(180deg);
+    color: #6391c6;
+    width: 100%;
+    padding:4px 0;
+    background:#7ca7d9;
+    text-align: center;
+    cursor:pointer;
+}

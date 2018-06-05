@@ -1,0 +1,138 @@
+.header-section{
+    display: grid;
+    width:100%;
+    grid-template-columns: 1fr;
+    justify-items: center;
+    border-bottom: 4px solid #c6defa;
+}
+
+.header-title{
+    font-family: 'TrendSansOne';
+    font-size: 38px;
+    height: 88px;
+    color: #6290b4;
+    letter-spacing: 5px;
+    display: grid;
+    grid-template-columns: auto 57px auto;
+    grid-column-gap: 5px;
+    align-items:center;
+    justify-items:center;
+}
+
+.title-first-part{
+    justify-self: right;
+}
+
+.title-last-part{
+    justify-self: left
+}
+
+.header-nav{
+    width: 100%;
+}
+
+
+.nav-section{
+    display:grid;
+    justify-items: center;
+    background: #6b9ad0;
+}
+
+.nav-title{
+    font-family:'Arial Narrow','Arial', sans-serif;
+    font-weight: normal;
+    font-size: 18px;
+    background: #6b9ad0;
+    text-align: center;
+    grid-template-rows: 43px 11px;
+    grid-auto-flow: column;
+    grid-row-gap: 4px;
+    grid-template-columns: repeat(5, min-content);
+    grid-column-gap: 70px ;
+    align-items: center;
+    justify-items: center;
+    height:54px;
+
+}
+
+.nav-item{
+    padding-top:6px;
+    color: white;
+    height:100%;
+    font-family:'Arial Narrow','Arial', sans-serif;
+    font-size: 18px;
+    text-shadow: 1px 1px rgba(193, 219, 255, 0.67);
+    text-transform: uppercase;
+}
+
+.sign-button{
+    display: inline-block;
+    width:100%;
+    padding:12px 0;
+    background:#7ca7d9;
+    text-decoration:none;
+    color:#608dc1;
+}
+
+.nav-link{
+    padding:16px 0px;
+    position:relative;
+}
+
+
+.first-item{
+    justify-self: right;
+}
+
+.last-item{
+    justify-self: left;
+    padding-right: 12px;
+}
+
+.last-selected-sign{
+    padding-right: 20px;
+}
+
+
+.desktop-icons{
+    justify-self: right;
+    align-self: center;
+}
+
+.arrow-down-container{
+    position: relative;
+    width: 28px;
+    margin-top:14px;
+    visibility: hidden;
+}
+
+.arrow-down-small {
+    width: 0px;
+    height: 0px;
+    border-left: 8px solid transparent;
+    border-right: 8px solid transparent;
+    border-top: 6px solid #6b9ad0;
+    position:absolute;
+    top: 0px;
+    left: 5px;
+}
+
+.arrow-down-big {
+    width: 0px;
+    height: 0px;
+    border-left: 13px solid transparent;
+    border-right: 13px solid transparent;
+    border-top: 11px solid #c6defa;
+}
+
+.visible-menu{
+    visibility: visible;
+}
+
+.tablet-nav-sign {
+    font-family: 'Arial Narrow', 'Arial', sans-serif;
+    font-weight: normal;
+    font-size: 20px;
+    text-align: center;
+    background: #7ca7d9;
+}

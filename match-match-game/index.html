@@ -1,0 +1,99 @@
+<html>
+<head>
+    <title>Match-match game</title>
+    <link href="assets/css/main.css" rel="stylesheet">
+</head>
+<body>
+    <main>
+    <section class="greeting">
+        <h1>
+            we are so glad to see you, are you ready to play?
+        </h1>
+        <div class="rules">
+            <h2>Rules:</h2>
+            <ul>
+                <li>Turn over any two cards</li>
+                <li>If the two cards match - they will disappear</li>
+                <li>If they don't match, they will be turned back</li>
+                <li>The game is over when all the cards have been matched.</li>
+            </ul>
+        </div>
+        <button id="idBtnStart" >Start</button>
+    </section>
+    <section class="registration not-displayed">
+        <div class="simple-content">
+            <form id="registration-form">
+                <div class="form-content">
+                    <label for="firstName">First name:</label>
+                    <input type="name" id="firstName" placeholder="your first name *" required tabindex="1"/>
+
+                    <label for="lastName" >Last name:</label>
+                    <input type="name" id="lastName" placeholder="your last name *" required tabindex="2"/>
+
+
+                    <label for="email">E-mail:</label>
+                    <input type="email" id="email" placeholder="your email *" required tabindex="3"/>
+                </div>
+            </form>
+            <button id="idBtnNewPlayer" type="submit" form="registration-form" tabindex="4">Register</button>
+        </div>
+    </section>
+    <section class="whole-game not-displayed" >
+        <header class="game-header">
+            <nav>
+                <a id="toNewPlayer" href="#" ><span class="nav-item">New player</span></a>
+                <a id="toNewGame" href="#" ><span class="nav-item">New game</span></a>
+            </nav>
+            <span id="registeredUser" class="registered-user"></span>
+        </header>
+        <section class="select-game not-displayed">
+            <div>
+                <h2>Select back</h2>
+                <label >
+                    <input class="radio" type="radio" checked="checked" name="gameImage" value="0">
+                    <img class="small-image" src="assets/images/paw-patrol/back/back1.jpg">
+                </label>
+                <label>
+                    <input class="radio" type="radio" name="gameImage" value="1">
+                    <img class="small-image" src="assets/images/paw-patrol/back/back2.jpg">
+                </label>
+            </div>
+            <div class="select-game-level">
+                <h2>Select level</h2>
+                <select class="game-level">
+                    <option> Low </option>
+                    <option> Middle </option>
+                    <option> High </option>
+                </select>
+            </div>
+            <button id="idBtnNewGame" type="button">New game</button>
+        </section>
+        <section class="game not-displayed">
+            <div class="simple-content">
+                <div class="timer">
+                    <span class="timer-value"></span>
+                </div>
+                <div class="game-table"></div>
+            </div>
+        </section>
+        <section class="game-congratulations not-displayed">
+                <div class="simple-content">
+                    <h2>Congratulations you win !!!</h2>
+                    <h2>TOP 10</h2>
+                    <div >
+                        <div class="scores-table">
+                            <span class="header">Full name</span>
+                            <span class="header">Level</span>
+                            <span class="header">Spend time</span>
+                        </div>
+                        <div id="score-content" class="scores-table">
+                        </div>
+                    </div>
+                </div>
+        </section>
+    </section>
+    </main>
+    <script type="text/javascript" src="dist/bundle.js"></script>
+
+</body>
+</html>

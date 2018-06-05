@@ -1,0 +1,117 @@
+@import "font-awesome-4.7.0/css/font-awesome.min.css";
+@import "header.css";
+@import "main-part.css";
+@import "adaptive.css";
+@import "mobile.css";
+@import "main-article.css";
+@import "grid-area-name.css";
+@import "social-icons-style.css";
+
+@font-face {
+    font-family: 'Cantarell Regular';
+    src: url('../fonts/Cantarell-Regular.woff');
+    font-weight:400;
+}
+
+@font-face {
+    font-family: 'TrendSansOne';
+    src: url('../fonts/TrendSansOne.otf');
+    font-weight:400;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    display: grid;
+    grid-template-columns: 1fr;
+    font-size:0px;
+}
+
+h2{
+    font-family: 'Cantarell Regular';
+    color: #6794b7;
+    font-weight: 400;
+    font-size: 18px;
+    display: block;
+    text-transform: uppercase;
+
+}
+
+.wrap-h2{
+    border-bottom: 5px solid #6794b7;
+    padding-left: 7px;
+}
+
+.wrap-aside-title{
+    display:grid;
+    grid-template-columns: 30px auto;
+    grid-template-row: 30px;
+    grid-column-gap: 0px;
+    align-items: center;
+    margin-bottom: 16px;
+}
+
+.wrap-sign-in-title{
+    width:100%;
+    height:100%;
+    background: #6794b7;
+    display:grid;
+    grid-template-columns: 1fr;
+    align-items: center;
+    justify-items: center;
+}
+
+.sign-in-title{
+    font-family: 'Cantarell Regular', Arial, sans-serif;
+    font-size: 20px;
+    color: #fff;
+    align-self: center;
+    justify-self: center;
+
+   display:inline-block;
+
+}
+
+
+h3{
+    font-family:'Arial Narrow', 'Arial', sans-serif;
+    font-size: 20px;
+    color: #69747c;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+li {
+    display: inline-block;
+    padding: 0;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+.spinner{
+    text-align: center;
+}
+
+.spinner-rotation{
+    animation: rotating 1.5s linear 0s infinite;
+}
+
+@keyframes rotating {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+

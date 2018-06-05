@@ -1,0 +1,45 @@
+.social-icons{
+    height:40px;
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-items: left;
+}
+
+.social-icons-desktop{
+    position: relative;
+    height:24px;
+    font-size: 14px;
+    font-family: "Arial", sans-serif;
+}
+
+.social-icons-wrapper{
+    height:24px;
+    width:258px;
+
+}
+
+.social-icons-desktop li {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    position: absolute;
+}
+
+.social-icons-desktop li, .social-icons-desktop a {
+    height: 24px;
+    display: block;
+}
+
+.social-link{
+    position:relative;
+    text-align:right;
+}
+
+.social-item{
+    color: #fff;
+    display: inline-block;
+    text-align: right;
+    width:30px;
+    padding: 4px 5px 4px;
+
+}

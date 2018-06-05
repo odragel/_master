@@ -1,0 +1,19 @@
+.topic-illustration{
+    grid-area: img-area;
+}
+
+.topic-title{
+    grid-area: topic-title;
+}
+
+.topic-subscription{
+    grid-area: subscribe-area;
+}
+
+.social-icons{
+    grid-area: social-area;
+}
+
+.topic-text{
+    grid-area: topic-text-area;
+}
